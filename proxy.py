@@ -2353,7 +2353,7 @@ def main():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     try:
         import check_google_ip
-        check_google_ip.main()
+        #check_google_ip.main()
     except ImportError:
         pass
     common = Common()
